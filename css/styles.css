@@ -1,34 +1,154 @@
-/****************Tag Selectors*********************/
 body {
-  background-color: #EFF6F6;
-}
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-width: 5px;
-  border-color: grey;
-  width: 5%
-}
-h1{
-  color: #66BFBF
-}
-h3{
-  color: #66BFBF
-}
-img:hover {
-  background: gold;
+  margin: 0;
+  color: #40514E;
+  text-align: center;
+  /* background-color: #E4F9F5; */
+  font-family: 'Merriweather', serif;
 }
 
-/****************Class Selectors*********************/
-.circular {
-  border-radius: 100%;
-}
-.main_background_color {
-  background-color:#0D3276;
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%; /* 90px /16px = 5.625*/
+  line-height: 2;
+  color: #66BFBF;
 }
 
-/****************id Selectors*********************/
-#nwu_motto{
-  /* width: 325px; */
-  height: 75px
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem; /* 40/16=2.5* em和percent相同，em会在父视图基础上再增加，而rem不会*/
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+p{
+    line-height: 2;
+}
+
+div {
+  /* display: inline-block; */
+}
+
+/* class Selectors */
+.box_size {
+  /* width: 200px;
+  height: 200px; */
+}
+
+.top_container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.middle_container {
+  margin: 100px 0; /* 100px for top and bottom, 0 for left and right*/
+}
+.bottom_container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.skill-row {
+  margin: 100px auto 150px auto;
+  width: 70%;
+  text-align: left;
+}
+
+.computer_description {
+  /* clear: right; */
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px; /*40px for top, auto for left and right, 60px for bottom*/
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.contact-me {
+  margin-bottom: 32px;
+}
+.self_intro {
+  width: 50%;
+  margin: auto;
+}
+
+.joya_img {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  object-fit:cover;
+}
+/*ID Selector*/
+#code_this_img {
+  width: 25%;/*500*/
+  float: left;
+  margin:auto 15px auto auto;
+}
+
+#computer_img {
+  width: 25%;/*500*/
+  float: right;
+  margin:auto auto auto 15px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
